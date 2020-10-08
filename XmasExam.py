@@ -18,7 +18,7 @@ def add():
 
     server = smtplib.SMTP('smtp.gmail.com', 587)
 server.starttls()
-server.login("16SFlynn@stjosephsrush.com", "Step@1298")
+server.login("16SFlynn@stjosephsrush.com", "password@password")
  
 msg = "Hello"
 server.sendmail("16SFlynn@stjosephsrush.com", "16SFlynn@stjosephsrush.ie", msg)
